@@ -1,0 +1,23 @@
+body{
+  background:linear-gradient(to bottom,rgb(210,147,129),rgba(210,147,129,0)) no-repeat;
+  background: cover;
+}
+.heading{
+  border:2px;
+  border-style:solid;
+}
+.parent{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.submitButton{
+  margin:5px;
+}
+.resetBtn{
+  margin:4px;
+}
+#result{
+  margin:20px;
+}
